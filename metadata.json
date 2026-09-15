@@ -1,0 +1,8 @@
+{
+  "name": "Remix Mofti Ohidul Alom | Markazul Iman Foundation",
+  "description": "Official website of Mofti Ohidul Alom Saheb and Markazul Iman Foundation – dedicated to humanitarian relief, Islamic education, community welfare, and youth empowerment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

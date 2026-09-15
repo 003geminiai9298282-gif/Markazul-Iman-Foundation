@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'Plus Jakarta Sans', 'Hind Siliguri', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+  }
+  img {
+    content-visibility: auto;
+  }
+}
+
+.font-bengali {
+  font-family: 'Hind Siliguri', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-heading {
+  font-family: 'Cinzel', serif;
+}
+
+/* Safe area inset support for modern mobile devices (notches, home bars) */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 1rem);
+}
+
